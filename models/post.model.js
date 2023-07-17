@@ -11,6 +11,10 @@ const postSchema = mongoose.Schema({
     versionKey : false
 })
 
+
+
+/////////////////
+
 const PostModel = mongoose.model("post", postSchema)
 
 
